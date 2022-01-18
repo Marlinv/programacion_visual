@@ -3,26 +3,26 @@
 print ("Facebook")
 nombre = ("dime tu nombre completo")
 # declara la variable
-nombre = input ("Manuel")
+nombre = input ()
 
 print ("cual es tu fecha de nacimiento")
 nacimiento = ("dime tu fecha de nacimiento")
-nacimiento = input ("15 de Marzo de 1985")
+nacimiento = input ()
 
 print ("Cual es tu sexo")
-sexo = input ("Masculino") 
+sexo = input () 
 
 print ("Correo")
 correo = ("dime tu correo")
-correo = input ("rivas45manuel@gmail.com")
+correo = input ()
 
 print ("Contrasena")
 contrasena = ("dime tu contrasena")
-contrasena = input ("********")
+contrasena = input ()
 
 print ("Cual es tu pais")
 pais = ("dime tu pais")
-pais = input ("Colombia")
+pais = input ()
 
 print ("Cual es tu telefono")
-telefono = input ("4-470-197-2586") 
+telefono = input () 

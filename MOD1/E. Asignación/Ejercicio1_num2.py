@@ -21,13 +21,22 @@ Multiplicacion = (int("9*1"))
 calcular = input ()
 
 print("Area rectangular")
-Area = (float(""))
+Area = (float("10*60"))
+calcular = input (600)
+Area = (float("60*"))
 calcular = input ()
+
+
+formula =
+Area = 
+Ancho = 5
+p = 34
+
 
 print ("ITBIS")
 ITBIS = (float("2,500 - 0.18"))
 
-formula = 
+formula =
 a = 2,500 
 b = 0.18
 
