@@ -1,0 +1,26 @@
+#multiplicacion con For de la tabla del 3
+
+multiplicacion = ("vamos a multiplicar")
+# declara la variable
+multiplicacion = input ()
+
+print ("3*1 =")
+multiplicacion = input ("3")
+print ("3*2 =")
+multiplicacion = input ("6")
+print ("3*3 =")
+multiplicacion = input ("9")
+print ("3*4 =")
+multiplicacion = input ("12")
+print ("3*5 =")
+multiplicacion = input ("15")
+print ("3*6 =")
+multiplicacion = input ("18")
+print ("3*7 =")
+multiplicacion = input ("21")
+print ("3*8 =")
+multiplicacion = input ("24")
+print ("3*9 =")
+multiplicacion = input ("27")
+print ("3*10 =")
+multiplicacion = input ("30")
