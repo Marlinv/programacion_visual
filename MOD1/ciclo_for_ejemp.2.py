@@ -18,6 +18,7 @@ numeros = [100, 50, 5, 11]
 
 for feo in numeros:
   print (feo)
+  
 # 3. imprimir rango de numeros
 rango1 = rango(40) #rango de 40 numeros (del 0 al 39)
 rango2 = rango(1, 41)# rango de 40 numeros (1 al 40 )
