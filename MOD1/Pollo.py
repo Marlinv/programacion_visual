@@ -1,7 +1,8 @@
 # Pollo
 
 print ("Pollo")
-precio = ("dime cuanto cuesta la libra?")
+precio = input("dime cuanto cuesta la libra?")
+ 
 # declara la variable
 
 print = ("100")

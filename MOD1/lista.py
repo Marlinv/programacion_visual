@@ -4,15 +4,11 @@
 # viajar. e Imprimir 1 y último país. 
 
 
-nombre []
-
 print ("Dime tu nombre")
 nombre = input ()
 nombre.append ()
 
 print (nombre)
-
-pais []
 
 print ("1. pais")
 pais = input ()
