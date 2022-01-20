@@ -1,9 +1,8 @@
 # dia de Semana
 
-print ("Lunes")
-print ("Martes")
-print ("Miercoles")
-print ("Jueves")
-print ("Viernes")
-print ("Sabado")
-print ("Domingo")
+print ("Dime que dia es hoy")
+
+numeros = ["1", "2", "3", "4", "5", "6"]
+
+for rango in numeros:
+  print (rango)
