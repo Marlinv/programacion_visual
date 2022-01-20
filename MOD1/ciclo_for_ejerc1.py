@@ -30,4 +30,4 @@ print ("Viernes")
 print ("Sabado")
 print ("Domingo")
 
-dia = input [5]
+dia = input []

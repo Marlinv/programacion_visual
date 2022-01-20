@@ -4,17 +4,9 @@ mes = ("En que mes estamos")
 # declara la variable
 mes = input ()
 
-print ("Enero")
-print ("Febrero")
-print ("Marzo")
-print ("Abril")
-print ("Maryo")
-print ("Junio")
-print ("Julio")
-print ("Agosto")
-print ("Septiembre")
-print ("Octubre")
-print ("Noviembre")
-print ("Dicciembre")
+print ("Dime que mes es hoy")
 
-mes = input [1]
+numeros = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12"]
+
+for rango in numeros:
+  print (rango)

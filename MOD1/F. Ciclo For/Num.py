@@ -4,25 +4,7 @@ Num = ("Dime tu Num")
 # declara la variable
 Num = input ()
 
-print("1")
-Num = input ()
-print("2")
-Num = input ()
-print("3")
-Num = input ()
-print("4")
-Num = input ()
-print("5")
-Num = input ()
-print("6")
-Num = input ()
-print("7")
-Num = input ()
-print("8")
-Num = input ()
-print("9")
-Num = input ()
-print("10")
-Num = input ()
+numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
-print ("Resultado")
+for rango in numeros:
+  print (rango) 
