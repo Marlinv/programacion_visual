@@ -1,4 +1,4 @@
-# CON CICLOS
+# CICLOS
 
 # Ejercicio 1:
 #Digita tu apellido e imprime cada letra

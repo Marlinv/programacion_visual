@@ -15,4 +15,3 @@ print ("Dime tu edad")
 
 print ("Dime tu cedula")
 cedula = input ()
-

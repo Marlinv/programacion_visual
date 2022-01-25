@@ -1,27 +1,22 @@
 # Redes Sociales
 
-print ("Facebook")
-nombre = ("dime tu nombre completo")
+print ("Cual es tu Facebook")
 # declara la variable
 nombre = input ()
 
 print ("cual es tu fecha de nacimiento")
-nacimiento = ("dime tu fecha de nacimiento")
 nacimiento = input ()
 
 print ("Cual es tu sexo")
 sexo = input () 
 
-print ("Correo")
-correo = ("dime tu correo")
+print ("Cual es tu Correo")
 correo = input ()
 
-print ("Contrasena")
-contrasena = ("dime tu contrasena")
+print ("Cual es tu Contrasena")
 contrasena = input ()
 
 print ("Cual es tu pais")
-pais = ("dime tu pais")
 pais = input ()
 
 print ("Cual es tu telefono")
