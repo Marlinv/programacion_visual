@@ -11,7 +11,8 @@ formula =
 a = 2,500 
 b = 0.18
 
-resultado = str ("a-b")
+resultado = str ("2499.82")
 calcular = input ()
 
 print ("resultado")
+calcular = input ()
