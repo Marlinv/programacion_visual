@@ -9,16 +9,16 @@
 # Ejercicio 3:
 # Hacer una lista de dias de semana e imprime cada dias.
 
-#print("Dime tu apellido")
-#apellido = input ()
+print("Dime tu apellido")
+apellido = input ()
 
-#for letras in apellido:
-  #print(letras)
+for letras in apellido:
+  print(letras)
 
-#numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
-#for rango in numeros:
-  #print (rango)
+for rango in numeros:
+  print (rango)
 
 print ("Dime que dia es")
 

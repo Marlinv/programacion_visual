@@ -7,16 +7,17 @@ print ("gmail")
 
 print ("tell me your username")
 username = input ()
-print ("tell me password")
+while not username == "":
+ print ("Blank spaces are not allowed")
+ username = input ("tell me your username: ")
+
+print ("tell me your password")
 password = input ()
+while not password == "":
+ print ("Blank spaces are not allowed")
+ password = input ("tell me your password: ")
 
-while username != 'marlin':
-  print ("es correcto")
-  username = input ('introduzca el username: ')
+print ('username correct')
+print ('password correct')
 
-while password != '147852':
-  print ("es correcto")
-  password = input ('introduzca el password: ')
-
-print ('contrasena correcta')
 print ("Iniciar")
