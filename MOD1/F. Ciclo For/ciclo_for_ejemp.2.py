@@ -37,9 +37,9 @@ for i in veces:
 print ("Dime la cantidad de dias que trabajas")
 cantidad = int (input())
 
-for tarado in "." cantidad
+for i in "." cantidad
 
 # alternativa
-for tarado in rango(cantidad):
+for i in rango(cantidad):
   print("Digite el precio ganado: ")
   precio = int(input())

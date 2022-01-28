@@ -2,8 +2,8 @@
 
 print ("vamos a calcular")
 # declara la variable
-calcular = input ()
+suma = input ()
 
 print("Suma")
 Suma = (int("10+10"))
-calcular = input ()
+suma = input ()

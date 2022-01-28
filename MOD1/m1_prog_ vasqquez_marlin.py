@@ -6,13 +6,12 @@ autor = input ()
 
 print ("dime tu nombre")
 nombre = input = ()
-
 print ("dime tu edad")
 edad = input = ()
 
 # suma
 print("Suma")
-Suma = (int("10+10"))
+Suma = (int("3+5"))
 suma = input ()
 
 # resta
