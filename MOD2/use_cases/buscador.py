@@ -1,22 +1,10 @@
 #buscador
 
-print ("estudiante")
-# digite la variable
-nombre = input ()
-
 print ("busca el nombre del estudiante: ")
-nombre = input ()
+# digite la variable
+nombre_lastname = input ()
 
-for nombre in nombre:
-  print("albert")
-  print("eric")
-  print("aracelis")
-  print("marlin")
+for nombre in nombre_lastname:
+  print ("nombre_lastname")
 
-print ("busca el apellido del estudiante: ")
-apellido = input ()
-
-for letras in apellido:
-  print(letras)
-
-numeros = [1, 2, 3]
+numeros = [3]
