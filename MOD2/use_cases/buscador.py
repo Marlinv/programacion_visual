@@ -1,14 +1,22 @@
-print ("dame tu nombre")
+#buscador
+
+print ("estudiante")
 # digite la variable
 nombre = input ()
 
-print ("busca el nombre de: ")
+print ("busca el nombre del estudiante: ")
+nombre = input ()
 
-print ("albert garcia") 
-print ("marlin vasquez") 
-print ("aracelis severino")
+for nombre in nombre:
+  print("albert")
+  print("eric")
+  print("aracelis")
+  print("marlin")
 
-for nombre in nombres:
-  print(nombre)
+print ("busca el apellido del estudiante: ")
+apellido = input ()
 
-numeros = []
+for letras in apellido:
+  print(letras)
+
+numeros = [1, 2, 3]
