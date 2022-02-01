@@ -1,4 +1,4 @@
-# dia de Semana
+# dia_de_Semana
 
 print ("Dime que dia es hoy")
 
