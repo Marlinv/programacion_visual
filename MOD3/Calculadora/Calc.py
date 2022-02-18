@@ -10,42 +10,41 @@ using System.Windows.Forms;
 
 namespace WindowsFormsApplication2
 {
-  public partial class calculadora : Form
+    public partial class calculadora : Form
     {
-      public calculadora()
+        public calculadora()
         {
-        InitializeComponent();
+            InitializeComponent();
         }
 
-  private void label1_Click(object sender, EventArgs e)
+private void label1_Click(object sender, EventArgs e)
         {
             
         }
 
-  private void suma_Click(object sender, EventArgs e)
-        {
+private void suma_Click(object sender, EventArgs e)
+        { 
             {
-  #Declarar la variable
-    string num1, num2;
-    num1 = impuct();
+#Declarar la variable
+  string num1, num2;
 
-  #Asignar que no este vacio
-    num1 = textBox1.Text;
-    num2 = textBox2.Text;
+#Asignar que no este vacio
+  num1 = textBox1.Text;
+  num2 = textBox2.Text;
 
-  #Validar que no este vacio
-  if (num1.Trim() == "")
-         {
-    MessageBox.Show("El num 1 no puede estar vacio");
-    return;
-          }
+#Validar que no este vacio
+if (num1.Trim() == "")
+                {
+  MessageBox.Show("El num 1 no puede estar vacio");
+  return;
+                }
 
-  #Agregar la otra validacion...
+#Agregar la otra validacion...
 
-  #Realizar calculo
-  int resultado = int.Parse(num1) + int.Parse(num2);
+#Realizar calculo
+int resultado = int.Parse(num1) + int.Parse(num2);
   textBox3.Text = resultado.ToString();
-          }
+            }
         }
 
 private void resta_Click(object sender, EventArgs e)
@@ -58,35 +57,62 @@ private void resta_Click(object sender, EventArgs e)
   num2 = textBox2.Text;
 
 #Validar que no este vacio
-  if (num1.Trim() == "")
+            if (num1.Trim() == "")
             {
-    MessageBox.Show("El num 1 no puede estar vacio");
-    return;
+MessageBox.Show("El num 1 no puede estar vacio");
+  return;
             }
         }
 
 private void suma_Click(object sender, EventArgs e)
         {
 #Declarar la variable
-  string num1, num2;
+string num1, num2;
 
 #Asignar que no este vacio
   num1 = textBox1.Text;
   num2 = textBox2.Text;
 
 #Validar que no este vacio
-if (num1.Trim() == "")
+  if (num1.Trim() == "")
            { 
   MessageBox.Show ("El num 1 no puede estar vacio");
   return;
            }
 
 #Agregar la otra validacion...
- 
+if (num2.Trim() ==)
+            {
+MessageBox.Show("El num 2 no puede estar vacio");
+            }
 #Realizar calculo
-int resultado = int.Parse(num1) - int.Parse(num2);
-textBox3.Text = resultado.ToString();
+int resultado = int.Parse(num1) + int.Parse(num2);
+  textBox3.Text = resultado.ToString();
      }
 
+Private Void resta_Click(object, sender, EventArgs e)
+        {
+            string num1, num2;
+        }
+#Asignar que no este vacio
+            num1 = textBox1.Text;
+            num2 = textBox2.Text;
+
+#Validar que no este vacio
+            if (num1.Trim() == "")
+           { 
+  MessageBox.Show ("El num 1 no puede estar vacio");
+             return;
+           }
+
+#Agregar la otra validacion...
+    if (num2.Trim() ==)
+            {
+  MessageBox.Show("El num 2 no puede estar vacio");
+            }
+#Realizar calculo
+int resultado = int.Parse(num1) - int.Parse(num2);
+  textBox3.Text = resultado.ToString();
+     }
     }
      }
