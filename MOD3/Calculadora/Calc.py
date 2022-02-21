@@ -38,17 +38,18 @@ if (num1.Trim() == "")
   MessageBox.Show("El num 1 no puede estar vacio");
   return;
                 }
-
 #Agregar la otra validacion...
 
 #Realizar calculo
-int resultado = int.Parse(num1) + int.Parse(num2);
+       {
+  int resultado = int.Parse(num1) + int.Parse(num2);
   textBox3.Text = resultado.ToString();
-            }
         }
 
+        }
 private void resta_Click(object sender, EventArgs e)
         {
+          
 #Declarar la variable
   string num1, num2;
 
@@ -57,9 +58,9 @@ private void resta_Click(object sender, EventArgs e)
   num2 = textBox2.Text;
 
 #Validar que no este vacio
-            if (num1.Trim() == "")
+if (num1.Trim() == "")
             {
-MessageBox.Show("El num 1 no puede estar vacio");
+  MessageBox.Show("El num 1 no puede estar vacio");
   return;
             }
         }
