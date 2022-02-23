@@ -11,29 +11,43 @@
 </head>
 
 <body>
+    </form>
     <div class="container w-50">
-        <h5>Busca la hipotenusa</h5>
+        <h5>Digita las 4 notas</h5>
 
         <form action="" method="get">
             <div class="mb -3">
-                <label for="">base</label>
-                <input type="text" name="base" class="form-control">
+                <label for="">1ra Nota</label>
+                <input type="text" name="1ra Nota" class="form-control">
             </div>
 
             <div class="mb -3">
-                <label for="">altura</label>
-                <input type="text" name="altura" class="form-control">
-            </div>
-            <div class="mb -3">
-                <button class="btn btn-primary">Calcular</button>
+                <label for="">2da Nota</label>
+                <input type="text" name="2da Nota" class="form-control">
             </div>
 
+            <div class="mb -3">
+                <label for="">3ra Nota</label>
+                <input type="text" name="3ra Nota" class="form-control">
+            </div>
+
+            <div class="mb -3">
+                <label for="">4ta Nota</label>
+                <input type="text" name="4ta Nota" class="form-control">
+            </div>
+
+            <div class="mb -3">
+                <button class="btn btn-primary">Enviar</button>
+            </div>
         </form>
-
         <?php
         print_r($_GET);
         ?>
     </div>
 </body>
+
+<?
+print_r($_GET);
+?>
 
 </html>
