@@ -1,9 +1,9 @@
 # Calcular la suma de 2 numero
 
-print ("vamos a calcular")
+print ("vamos a sumar")
 # declara la variable
 suma = input ()
 
-print("Suma")
+print("suma")
 Suma = (int("10+10"))
 suma = input ()

@@ -1,9 +1,9 @@
 # Calcular la resta de 2 numero
 
-print ("vamos a calcular")
+print ("vamos a resta")
 # declara la variable
-calcular = input ()
+resta = input ()
 
-print("Resta")
-Resta = (int("25-1"))
-calcular = input ()
+print("resta")
+resta = (int("restar"))
+resta = input ()
