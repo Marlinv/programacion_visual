@@ -10,27 +10,22 @@
 </head>
 <body>
 <div class="container w-50">
-        <h5>Vamos a calcular la hipotenusa Triangulo</h5>
+        <h5>determinar Numero en pares</h5>
 
         <form action="" method="get">
             <div class="mb -3">
-                <label for="">Vamos a Sumar</label>
-                <input type="text" name="Suma" class="form-control">
-            </div>
-            </form>
-        <br>
-        <form action="" method="get">
-            <div class="mb -3">
-                <label for="">Vamos a Restar</label>
-                <input type="text" name="Resta" class="form-control">
+                <button class="btn btn-primary">resultado</button>
+
             </div>
         </form>
-        <div class="mb -3">
-            <button class="btn btn-primary">Calcular</button>
-        </div>
-        <?php
-        print_r($_GET);
-        ?>
-    </div>
+    <?php
+    //Imprimir los números pares del 1 al 100.
+    for ($i=1; $i <=100; $i++){
+        if ($i % 2 ==0) {
+            echo $i;
+        }
+    }
+    ?>
+</div>
 </body>
 </html>

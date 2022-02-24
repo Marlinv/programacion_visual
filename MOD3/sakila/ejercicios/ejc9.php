@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,22 +9,35 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 </head>
+
 <body>
-<div class="container w-50">
-        <h5>Dime tu num Impar</h5>
+    <div class="container w-50">
+        <h5>Dime tu num</h5>
 
         <form action="" method="get">
             <div class="mb -3">
-                <label for="">El num impar es</label>
+                <label for="">par o impar, es:</label>
                 <input type="text" name="impar" class="form-control">
-            </div>
-          <div class="mb -3">
-                <button class="btn btn-primary">Imprimir</button>
+
+                <button class="btn btn-primary">Enviar</button>
+
             </div>
         </form>
-        <?php
+<?php
         print_r($_GET);
-        ?>
+        //Digitar un número y decir si es par o impar
+        for ($i =0; $i <=100; $i++) 
+        { 
+
+        if ($i % 2 ==0){ 
+            echo "El num: " .$i. "es par! </br>";
+        } else { 
+            echo "El num: " .$i. "es Impar! </br>";
+        }
+
+        }
+?>
     </div>
 </body>
+
 </html>
