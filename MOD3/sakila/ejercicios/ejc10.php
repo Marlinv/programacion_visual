@@ -17,6 +17,9 @@
                 <label for="">El num impar es</label>
                 <input type="text" name="impar" class="form-control">
             </div>
+          <div class="mb -3">
+                <button class="btn btn-primary">Imprimir</button>
+            </div>
         </form>
         <?php
         print_r($_GET);
