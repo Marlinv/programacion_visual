@@ -12,29 +12,28 @@
 
 <body>
     <div class="container w-50">
-        <h5>Busca la hipotenusa</h5>
+        <h5>distancia a determinar es:</h5>
 
         <form action="" method="get">
             <div class="mb -3">
-                <label for="">base</label>
-                <input type="text" name="base" class="form-control">
+                <label for="">velocidad es</label>
+                <input type="text" name="velocidad" class="form-control">
+                <label for="">tiempo es</label>
+                <input type="text" name="tiempo" class="form-control">
             </div>
 
             <div class="mb -3">
-                <label for="">altura</label>
-                <input type="text" name="altura" class="form-control">
-            </div>
-            <div class="mb -3">
-                <button class="btn btn-primary">Calcular</button>
+                <button class="btn btn-primary">calcular</button>
             </div>
         </form>
         <?php
         print_r($_GET);
-        //Digitar la base y la altura de un triángulo y calcular e imprimir la hipotenusa.
-        $altura = $_GET["altura"];
-        $base = $_GET["base"];
+        //Calcular la distancia recorrida (Buscar formula de la distancia)
+        $velocidad = $_GET["velocidad"];
+        $tiempo = $_GET["tiempo"];
 
-        $calcular = ($altura + $base / 2);
+
+        $calcular = ($velocidad * $tiempo);
         echo "$calcular";
         ?>
     </div>

@@ -12,25 +12,23 @@
 
 <body>
     <div class="container w-50">
-        <h5>Busca la hipotenusa</h5>
+        <h5>Vamos a calcular la hipotenusa Triangulo</h5>
 
         <form action="" method="get">
             <div class="mb -3">
-                <label for="">base</label>
-                <input type="text" name="base" class="form-control">
-            </div>
-
-            <div class="mb -3">
-                <label for="">altura</label>
-                <input type="text" name="altura" class="form-control">
-            </div>
-            <div class="mb -3">
-                <button class="btn btn-primary">Calcular</button>
+                <label for="">sumar</label>
+                <input type="text" name="sumar" class="form-control">
+                <label for="">restar</label>
+                <input type="text" name="restar" class="form-control">
             </div>
         </form>
+
+        <div class="mb -3">
+            <button class="btn btn-primary">Calcular</button>
+        </div>
         <?php
         print_r($_GET);
-        //Digitar la base y la altura de un triángulo y calcular e imprimir la hipotenusa.
+        //Calcular la hipotenusa de un triangulo
         $altura = $_GET["altura"];
         $base = $_GET["base"];
 

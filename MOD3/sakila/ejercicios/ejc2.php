@@ -11,29 +11,28 @@
 </head>
 
 <body>
-    </form>
     <div class="container w-50">
         <h5>Digita las 4 notas</h5>
 
         <form action="" method="get">
             <div class="mb -3">
-                <label for="">1ra Nota</label>
-                <input type="text" name="1ra Nota" class="form-control">
+                <label for="">nota1</label>
+                <input type="text" name="nota1" class="form-control">
             </div>
 
             <div class="mb -3">
-                <label for="">2da Nota</label>
-                <input type="text" name="2da Nota" class="form-control">
+                <label for="">nota2</label>
+                <input type="text" name="nota2" class="form-control">
             </div>
 
             <div class="mb -3">
-                <label for="">3ra Nota</label>
-                <input type="text" name="3ra Nota" class="form-control">
+                <label for="">nota3</label>
+                <input type="text" name="nota3" class="form-control">
             </div>
 
             <div class="mb -3">
-                <label for="">4ta Nota</label>
-                <input type="text" name="4ta Nota" class="form-control">
+                <label for="">nota4</label>
+                <input type="text" name="nota4" class="form-control">
             </div>
 
             <div class="mb -3">
@@ -42,12 +41,16 @@
         </form>
         <?php
         print_r($_GET);
+        //Digitar 4 notas y calcular e imprimir el promedio.
+        $nota1 = $_GET["nota1"];
+        $nota2 = $_GET["nota2"];
+        $nota3 = $_GET["nota3"];
+        $nota4 = $_GET["nota4"];
+
+        $resultado = ($nota1 + $nota2 + $nota3 + $nota4 / 4);
+        echo "$resultado";
         ?>
     </div>
 </body>
-
-<?
-print_r($_GET);
-?>
 
 </html>
