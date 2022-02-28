@@ -9,9 +9,11 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
     <title>Hello, world!</title>
+
 </head>
 <body>
-    <div class="col-lg-8 mx-auto p-3 py-md-5">
+
+<div class="col-lg-8 mx-auto p-3 py-md-5">
 <header class="d-flex align-items-center pb-3 mb-5 border-bottom">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
     <a href="/" class="d-flex align-items-center text-dark text-decoration-none">
@@ -22,18 +24,9 @@
 
 <main>
     <h1><i class="bi bi-vector-pen"></i>Shadow</h1>
-    <p class="fs-5 col-md-8">Toda palabra llama a otra palabra.
-Toda palabra es un imán verbal,
-un polo de atracción variable
-que inaugura siempre nuevas constelaciones.
-Una palabra es todo el lenguaje,
-pero es también la fundación
-de todas las transgresiones del lenguaje,
-la base donde se afirma siempre un antilenguaje.
-Una palabra es todavía el hombre.
-Dos palabras son ya el abismo.
-Una palabra puede abrir una puerta.
-Dos palabras la borran.</p>
+    <p class="fs-5 col-md-8">
+
+    </p>
 
     <div class="mb-5">
     <a href="/docs/5.1/examples/" class="btn btn-primary btn-lg px-4">Download examples</a>
@@ -46,25 +39,23 @@ Dos palabras la borran.</p>
         <h2>sunset</h2>
         <p></p>
         <ul class="icon-list">
-        <li><a href="https://github.com/twbs/bootstrap-npm-starter" rel="noopener" target="_blank">Bootstrap npm starter</a></li>
-        <li class="text-muted">Bootstrap Parcel starter (coming soon!)</li>
+        <li><a href="./ejercicios/">Ejercicios</li>
+        <li><a href="./explicaciones/">Explicaciones</a></li>
+        <li><a href="./"></li>
         </ul>
     </div>
 
     <div class="col-md-6">
-        <h2>Guides</h2>
-        <p>Read more detailed instructions and documentation on using or contributing to Bootstrap.</p>
+        <h2>Spring</h2>
+        <p></p>
         <ul class="icon-list">
-        <li><a href="/docs/5.1/getting-started/introduction/">Bootstrap quick start guide</a></li>
-        <li><a href="/docs/5.1/getting-started/webpack/">Bootstrap Webpack guide</a></li>
-        <li><a href="/docs/5.1/getting-started/parcel/">Bootstrap Parcel guide</a></li>
-        <li><a href="/docs/5.1/getting-started/contribute/">Contributing to Bootstrap</a></li>
+        
         </ul>
     </div>
     </div>
 </main>
 <footer class="pt-5 my-5 text-muted border-top">
-    Created by the Bootstrap team &middot; &copy; 2021
+    Created by the Marlin Vasquez &middot; &copy; 2022
 </footer>
 </div>
 
