@@ -18,7 +18,7 @@
             </form>
             
             <div class="row">
-                <form class="col-4">
+                <form class="col-4"> 
                     <div class="input-group mb-3">
                         <input type="text" name="buscador" class="form-control" placeholder="Buscador">
                         <button class="btn btn-outline-secondary" type="submit" name="boton-buscar">Buscar</button>
@@ -40,10 +40,10 @@
                 <table class="table">
             <thead>
                 <tr>
-                    <th scope="col">#</th>
-                    <th scope="col">First</th>
-                    <th scope="col">Last</th>
-                    <th scope="col">Handle</th>
+                    <th scope="col">actor_id</th>
+                    <th scope="col">first_name</th>
+                    <th scope="col">last_name</th>
+                    <th scope="col">last_update</th>
                 </tr>
             </thead>
                     <tbody>
