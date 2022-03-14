@@ -9,13 +9,9 @@
         <div class="row">
             <form class="col-6" method="post">
                 <div class="mb-3">
-                    <label for="">sakila</label>
-                    <input type="text" name="language_id" class="form-control">
+                    <label for="">Ingrese el nombre</label>
+                    <input type="text" name="nombre" class="form-control">
                 </div>
-            <div class="mb-3">
-                <button name="boton-guardar" class="btn btn-primary">Guardar</button>
-            </div>
-            </form>
             
             <div class="row">
                 <form class="col-4">
@@ -24,14 +20,6 @@
                         <button class="btn btn-outline-secondary" type="submit" name="boton-buscar">Buscar</button>
                     </div>
                 </form>
-
-        <div class="row">
-            <form class="col-4">
-                <div class="input-group mb-3">
-                    <input type="text" name="buscador" class="form-control" placeholder="Buscador">
-                    <button class="btn btn-outline-secondary" type="submit" name="boton-buscar">Buscar</button>
-                </div>
-            </form>
 
             <?php if (!empty($error)): ?>
 <div class="alert alert-warning alert-dismissible fade show" role="alert">

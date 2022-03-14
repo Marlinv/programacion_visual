@@ -3,7 +3,7 @@
 require_once "recursos/conexion.php";
 require_once "recursos/funciones.php";
 
-$pagina = "Ciudades";
+$pagina = "country";
 
 $error = "";
 
@@ -34,6 +34,6 @@ $error = $ex->getMessage();
     }
 
 #incluir la vista
-require_once "vistas/vista_ciudades.php";
+require_once "vistas/vista_country.php";
 
 #no debe haber codigo despues de esta linea

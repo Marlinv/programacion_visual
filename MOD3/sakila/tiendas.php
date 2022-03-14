@@ -3,7 +3,7 @@
 require_once "recursos/conexion.php";
 require_once "recursos/funciones.php";
 
-$pagina = "Tiendas";
+$pagina = "store";
 
 $error = "";
 
@@ -15,6 +15,6 @@ $error = $ex->getMessage();
     }
 
 #incluir la vista
-require_once "vistas/vista_tiendas.php";
+require_once "vistas/vista_store.php";
 
 #no debe haber codigo despues de esta linea

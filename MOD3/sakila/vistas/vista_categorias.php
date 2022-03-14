@@ -8,12 +8,12 @@
         <div class="row">
             <form class="col-6" method="post">
                 <div class="mb-3">
-                    <label for="">sakila</label>
-                    <input type="text" name="name" class="form-control">
+                    <label for="">Ingrese la categoria</label>
+                    <input type="text" name="categoria" class="form-control">
                 </div>
-            <div class="mb-3">
-                <button name="boton-guardar" class="btn btn-primary">Guardar</button>
-            </div>
+                <div class="mb-3">
+                    <button name="boton-guardar" class="btn btn-primary">Guardar</button>
+                </div>
             </form>
 
             <div class="row">
@@ -24,22 +24,22 @@
                     </div>
                 </form>
 
-                <?php if (!empty($error)): ?>
-                <div class="alert alert-warning alert-dismissible fade show" role="alert">
-                    <strong></strong>
+                <?php if (!empty($error)) : ?>
+                    <div class="alert alert-warning alert-dismissible fade show" role="alert">
+                        <strong></strong>
 
-                    <?php echo $error; ?>
-                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-                </div>
+                        <?php echo $error; ?>
+                        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                    </div>
                 <?php endif; ?>
 
-                <?php if (!empty($error)): ?>
-                <div class="alert alert-warning alert-dismissible fade show" role="alert">
-                    <strong></strong>
+                <?php if (!empty($error)) : ?>
+                    <div class="alert alert-warning alert-dismissible fade show" role="alert">
+                        <strong></strong>
 
-                    <?php echo $error; ?>
-                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-                </div>
+                        <?php echo $error; ?>
+                        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                    </div>
                 <?php endif; ?>
 
             </div>
@@ -47,40 +47,42 @@
                 <div class="col-12">
                     <table class="table table-dark table-striped">
                         <thead>
-                <tr>
-                    <th scope="col">category_id</th>
-                    <th scope="col">name</th>
-                    <th scope="col">last_update</th>
-                </tr>
-            </thead>
+                            <tr>
+                                <th scope="col">category_id</th>
+                                <th scope="col">name</th>
+                                <th scope="col">last_update</th>
+                            </tr>
+                        </thead>
                         <tbody>
                             <?php
-                        $query = "SELECT*FROM category";
-                        $buscador = $_GET['buscador']??"";
-                        if ($buscador !=""){
-                            $query = "SELECT * FROM category WHERE name = '$buscador'";
-                        }
-                        $resultado = mysqli_query($conexion, $query);
+                            $query = "SELECT*FROM category";
+                            $buscador = $_GET['buscador'] ?? "";
+                            if ($buscador != "") {
+                                $query = "SELECT * FROM category WHERE name = '$buscador'";
+                            }
+                            $resultado = mysqli_query($conexion, $query);
 
-                        if ($resultado){ 
-                            while ($fila = mysqli_fetch_object($resultado)) {
-                            echo " 
+                            if ($resultado) {
+                                while ($fila = mysqli_fetch_object($resultado)) {
+                                    echo " 
                         <tr>
                         <td>{$fila->category_id}</td>
                         <td>{$fila->name}</td>
                         <td>{$fila->last_update}</td>
-                        </tr>"; 
-                        }
-                    } 
-                        ?>
+                            <td>
+                        <a href='{$_SERVER['PHP_SELF']}?editar=$fila->category_id'>Editar</a>
+                        <a href='{$_SERVER['PHP_SELF']}?eliminar=$fila->category_id'>Eliminar</a>
+                            </td>
+                        </tr>";
+                                }
+                            }
+
+                            ?>
                         </tbody>
                     </table>
                 </div>
             </div>
-            </thead>
-            </table>
         </div>
-    </div>
     </div>
     <?php require_once "parte_footer.php"; ?>
 </body>

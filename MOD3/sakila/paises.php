@@ -51,6 +51,6 @@ try {
         }
 
 #incluir la vista
-require_once "vistas/vista_paises.php";
+require_once "vistas/vista_city.php";
 
 #no debe haber codigo despues de esta linea

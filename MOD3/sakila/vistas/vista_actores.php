@@ -9,7 +9,7 @@
         <div class="row">
             <form class="col-6" method="post">
                 <div class="mb-3">
-                    <label for="">sakila</label>
+                    <label for="">Ingrese el actor</label>
                     <input type="text" name="first_name" class="form-control">
                 </div>
             <div class="mb-3">

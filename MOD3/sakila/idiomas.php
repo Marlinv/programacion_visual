@@ -3,7 +3,7 @@
 require_once "recursos/conexion.php";
 require_once "recursos/funciones.php";
 
-$pagina = "Idiomas";
+$pagina = "language";
 
 $error = "";
 
@@ -24,14 +24,21 @@ try {
             throw new Exception ("El nombre no puede estar vacio");
         }
         //guardar
+        $query = "INSERT INTO language ('name') VALUES ('$name')";
 
-        //refrezcar
+        $resultado = $conexion->query($query) or die("Error en query");
+
+        if ($resultado) {
+            $_SESSION['mensaje'] = "Datos insertados correctamente";
+        } else {
+            throw new Exception("No se puede insertar los datos");
+        }
     }
-} catch(Throwable $ex) {
-$error = $ex->getMessage();
-    }
+} catch (Throwable $ex) {
+    $error = $ex->getMessage();
+}
 
 #incluir la vista
-require_once "vistas/vista_idiomas.php";
+require_once "vistas/vista_language.php";
 
 #no debe haber codigo despues de esta linea

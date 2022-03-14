@@ -4,7 +4,7 @@
 require_once "recursos/conexion.php";
 require_once "recursos/funciones.php";
 
-$pagina = "actores";
+$pagina = "actor";
 
 $error = "";
 
@@ -45,6 +45,6 @@ try {
         } 
 
 #incluir la vista
-require_once "vistas/vista_actores.php";
+require_once "vistas/vista_actor.php";
 
 #no debe haber codigo despues de esta linea

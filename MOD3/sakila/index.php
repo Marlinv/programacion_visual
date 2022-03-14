@@ -37,73 +37,83 @@
         <ul class="icon-list">
         <li><a href="./ejercicios/"><h5>Ejercicios</h5></li>
         <li><a href="./explicaciones/"><h5>Explicaciones</h5></a></li>
-        <li><a href="./vistas"><h5>vistas</h5></li>
         </ul>
     </div>
-
-    <div class="row text-center">
+    <div class="row text-righ">
+    <p><h3>Formularios</h3></p>
+    </div>
+    <div class="row text-left">
         <div class="col-4">
             <span class="fs-2">
             <i class="bi bi-person-lines-fill"></i>
                 </span>
-            <a href="./actores.php">
-                <h3>Actores</h3>
+            <a href="./actor.php">
+                <h3>Actor</h3>
             </a>
-
+    </div>
+</div>
+    <div class="row text-right">
             <div class="col-4">
             <span class="fs-1">
             <i class="bi bi-back"></i>
             </span>
-            <a href="./categorias.php">
-                <h3>Categoria</h3>
+            <a href="./Category.php">
+                <h3>Category</h3>
             </a>
         </div>
+    </div>
 
+        <div class="row text-left">
         <div class="col-4">
             <span class="fs-1">
             <i class="bi bi-geo-alt-fill"></i>
                 </span>
-            <a href="./ciudades.php">
-                <h3>Ciudades</h3>
+            <a href="./Country.php">
+                <h3>Country</h3>
             </a>
         </div>
-
+    </div>
+    <div class="row text-right">
         <div class="col-4">
             <span class="fs-1">
             <i class="bi bi-people-fill"></i>
                 </span>
-            <a href="./clientes.php">
-                <h3>Clientes</h3>
+            <a href="./customer.php">
+                <h3>customer</h3>
             </a>
         </div>
-
+    </div>
+        <div class="row text-left">
         <div class="col-4">
             <span class="fs-1">
             <i class="bi bi-body-text"></i>
                 </span>
-            <a href="./Idiomas.php">
-                <h3>Idiomas</h3>
+            <a href="./language.php">
+                <h3>language</h3>
             </a>
         </div>
-
+    </div>
+        <div class="row text-right">
         <div class="col-4">
             <span class="fs-1">
             <i class="bi bi-globe2"></i>
                 </span>
-            <a href="./paises.php">
-                <h3>Paises</h3>
+            <a href="./city.php">
+                <h3>City</h3>
             </a>
         </div>
-
+    </div>
+        <div class="row text-left">
         <div class="col-4">
             <span class="fs-1">
             <i class="bi bi-camera-reels-fill"></i>
             </span>
-            <a href="./peliculas.php">
-                <h3>Peliculas</h3>
+            <a href="./film.php">
+                <h3>Film</h3>
             </a>
         </div>
-
+    </div>
+        <div class="row text-right">
         <div class="col-4">
             <span class="fs-1">
             <i class="bi bi-person-badge-fill"></i>
@@ -112,22 +122,24 @@
                 <h3>Staff</h3>
             </a>
         </div>
-
+    </div>
+    <div class="row text-left">
         <div class="col-4">
             <span class="fs-1">
             <i class="bi bi-gift-fill"></i>
                 </span>
-            <a href="./tiendas.php">
-                <h3>Tiendas</h3>
+            <a href="./Store.php">
+                <h3>Store</h3>
             </a>
         </div>
     </div>
+
     <div class="col-md-6">
-    <ul class="icon-list"><i class="bi bi-github" width:8; height:8;></i>
+    <ul class="icon-list"><i class="bi bi-github" width:7; height:8;></i>
         <h2>Redes Sociales</h2>
     </ul>
     </div>
-    </div>
+</div>
 </main>
 <footer class="pt-5 my-5 text-muted border-top">
     Created by the Marlin Vasquez &middot; &copy; 2022
