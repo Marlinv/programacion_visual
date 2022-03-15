@@ -71,4 +71,3 @@
     <?php require_once "parte_footer.php"; ?>
 </body>
 
-</html>
