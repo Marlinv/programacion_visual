@@ -21,16 +21,16 @@
                             <option>address_id</option>
                         </select>
                     </div>
-
                     <label for="">email</label>
                     <input type="text" name="email" class="form-control">
-                    <label for="">store_id</label>
-                    <input type="text" name="store_id" class="form-control">
+                    <br>
+                    <select class="form-select" name="store_id" aria-label="Default select example">
+                        <option selected>store_id</option>
+                    </select>
                     <label for="">username</label>
                     <input type="text" name="username" class="form-control">
                     <label for="">password</label>
                     <input type="text" name="password" class="form-control">
-
 
                     <label for="update">last_update:</label>
                     <input type="date" id="update" name="last_update">

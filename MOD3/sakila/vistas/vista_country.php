@@ -15,7 +15,7 @@
         </div>
 
         <div class="mb-3">
-            <select class="form-select" name="country_id">
+            <select class="form-select" name="city">
                 <option value="" selected>Selecione la ciudad</option>
 
                 <div class="mb-3">
@@ -28,7 +28,7 @@
 
                 if ($resultado) {
                     while ($fila = mysqli_fetch_object($resultado)) {
-                        echo "<option value='$fila->country_id'>$fila->city</option>";
+                        echo "<option value='$fila->country_id'>$fila->country</option>";
                     }
                 }
                 ?>

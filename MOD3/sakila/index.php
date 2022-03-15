@@ -57,7 +57,7 @@
             <span class="fs-1">
             <i class="bi bi-back"></i>
             </span>
-            <a href="./Category.php">
+            <a href="./category.php">
                 <h3>Category</h3>
             </a>
         </div>
@@ -68,7 +68,7 @@
             <span class="fs-1">
             <i class="bi bi-geo-alt-fill"></i>
                 </span>
-            <a href="./Country.php">
+            <a href="./country.php">
                 <h3>Country</h3>
             </a>
         </div>
@@ -128,7 +128,7 @@
             <span class="fs-1">
             <i class="bi bi-gift-fill"></i>
                 </span>
-            <a href="./Store.php">
+            <a href="./store.php">
                 <h3>Store</h3>
             </a>
         </div>

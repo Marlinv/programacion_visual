@@ -6,10 +6,12 @@
     <div class="container">
         <h3> <?php echo $pagina; ?></h3>
         <div class="row">
+
             <form class="col-6" method="post">
+                <input type="text" name="id" value="<?php echo $category_id ?? ''; ?>">
                 <div class="mb-3">
                     <label for="">Ingrese la categoria</label>
-                    <input type="text" name="categoria" class="form-control">
+                    <input value="<?php echo $name ?? ''; ?>" type="text" name="categoria" class="form-control">
                 </div>
                 <div class="mb-3">
                     <button name="boton-guardar" class="btn btn-primary">Guardar</button>
